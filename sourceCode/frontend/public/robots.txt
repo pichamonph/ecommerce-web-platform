@@ -1,0 +1,8 @@
+# Robots.txt for E-commerce Application
+# Allow all robots to access all content
+
+User-agent: *
+Allow: /
+
+# Sitemap location (update when available)
+# Sitemap: https://yourdomain.com/sitemap.xml
