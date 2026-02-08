@@ -2,8 +2,6 @@
 
 A full-stack e-commerce marketplace built with **Spring Boot** and **Next.js**, featuring multi-vendor shop management, real-time buyer-seller chat via WebSocket, integrated payment processing through Omise gateway, and a comprehensive admin dashboard. The system supports three distinct user roles (Customer, Seller, Admin) with granular access control, product variant management, order lifecycle tracking, and a review/rating system.
 
----
-
 ## Table of Contents
 
 - [Features](#features)
@@ -12,8 +10,6 @@ A full-stack e-commerce marketplace built with **Spring Boot** and **Next.js**, 
 - [Project Structure](#project-structure)
 - [Getting Started](#getting-started)
 - [Role-Based Access](#role-based-access)
-
----
 
 ## Features
 
@@ -50,11 +46,7 @@ A full-stack e-commerce marketplace built with **Spring Boot** and **Next.js**, 
 - **Payment Administration** &mdash; View payment statistics, update statuses, process refunds, and clean up expired payments
 - **Order Management** &mdash; Full visibility into all orders across the platform
 
----
-
 ## Screenshots
-
-> **Note:** Add your application screenshots to the `doc/screenshots/` directory and update the paths below.
 
 ### Customer Pages
 
@@ -78,8 +70,6 @@ A full-stack e-commerce marketplace built with **Spring Boot** and **Next.js**, 
 |:---:|:---:|:---:|
 | ![Admin Dashboard](doc/screenshots/admin-dashboard.png) | ![Users](doc/screenshots/admin-users.png) | ![Shops](doc/screenshots/admin-shops.png) |
 
----
-
 ## Tech Stack
 
 | Layer | Technology |
@@ -99,8 +89,6 @@ A full-stack e-commerce marketplace built with **Spring Boot** and **Next.js**, 
 | Payment Gateway | Omise (credit card, PromptPay, bank transfer, TrueMoney) |
 | Build Tools | Maven 3 (backend), npm (frontend) |
 | Testing | JUnit 5, Spring Security Test, H2 (test DB) |
-
----
 
 ## Project Structure
 
@@ -156,8 +144,6 @@ ecommerce/
 │
 └── doc/                                  # Documentation & presentations
 ```
-
----
 
 ## Getting Started
 
@@ -262,8 +248,6 @@ ecommerce/
 | run | `mvn spring-boot:run` | Start Spring Boot server on port 8080 |
 | build | `mvn clean install` | Compile and package as JAR |
 | test | `mvn test` | Run test suite |
-
----
 
 ## Role-Based Access
 
